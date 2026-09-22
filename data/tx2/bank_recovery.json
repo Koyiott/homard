@@ -1,0 +1,81 @@
+{
+  "n_probes": 3000,
+  "thresholds": {
+    "power_mA": 254,
+    "sudoku_tp": 61.375
+  },
+  "conflicts": {
+    "power": 186,
+    "sudoku": 188,
+    "both": 169,
+    "power_only": 17,
+    "sudoku_only": 19,
+    "neither": 2795
+  },
+  "recovered_basis": {
+    "power": [
+      [
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28
+      ],
+      [
+        14,
+        17,
+        18,
+        20,
+        21,
+        23,
+        24,
+        26,
+        27,
+        29
+      ]
+    ],
+    "sudoku": [
+      [
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        27,
+        28
+      ],
+      [
+        14,
+        17,
+        18,
+        20,
+        21,
+        23,
+        24,
+        26,
+        27,
+        29
+      ]
+    ]
+  },
+  "match": {
+    "f1_power_exact": true,
+    "f1_power_frac": 1.0,
+    "f1_sudoku_exact": true,
+    "f1_sudoku_frac": 1.0,
+    "f2_power_exact": true,
+    "f2_power_frac": 1.0,
+    "f2_sudoku_exact": true,
+    "f2_sudoku_frac": 1.0
+  },
+  "groundtruth_compliance": {
+    "power_pool_f1_zero_rate": 0.9408602150537635,
+    "power_pool_f2_zero_rate": 0.9408602150537635,
+    "sudoku_pool_f1_zero_rate": 1.0,
+    "sudoku_pool_f2_zero_rate": 1.0
+  }
+}

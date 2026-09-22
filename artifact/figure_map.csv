@@ -1,0 +1,26 @@
+paper_item,panel,output_file,script,primary_data,platform,key_result
+Figure 1,-,figures/schematics/DRAMorgScheme.pdf,(static schematic),-,-,DRAM memory system organization
+Figure 2a,-,figures/schematics/TH_PI_SCU.pdf,(static schematic),-,Pi 5,Attacker setup
+Figure 2b,-,figures/schematics/tx2_architecture_fix.pdf,(static schematic),-,Jetson TX2,Attacker setup
+Figure 3a,timing,figures/timing_zcu102.pdf,scripts/fig03_channels.py,data/zcu102/rowconflict_timing_200pairs.csv,ZCU102,AUC = 1.0 (100 vs 100 pairs)
+Figure 3b,timing,figures/timing_pi5.pdf,scripts/fig03_channels.py,data/pi5/rowconflict_timing_400pairs.csv,Pi 5,AUC = 1.0 (200 vs 200 pairs)
+Figure 3c,timing,figures/tx2_drama_collapse.pdf,scripts/fig03_channels.py,data/tx2/power_3000pairs.csv,Jetson TX2,Timing populations collapse; 46/3000 conflicts vs 188 predicted
+Figure 3d,power,figures/zcu102_u93_best.pdf,scripts/fig03_channels.py,data/zcu102/rowconflict_power_500pairs.csv,ZCU102,188.44 vs 192.65 mA; AUC = 1.0 (125 vs 375)
+Figure 3e,power,figures/pi5_ddr_vdd2_best.pdf,scripts/fig03_channels.py,data/pi5/rowconflict_power_100pairs.csv,Pi 5,88.70 vs 102.74 mA; AUC = 1.0 (50 vs 50)
+Figure 3f,power,figures/tx2_power_density.pdf,scripts/fig03_channels.py,data/tx2/power_3000pairs.csv,Jetson TX2,Four levels at 252.3/256.3/259.4/263.7 mA (177/795/509/1519)
+Figure 4,-,figures/fig_recovery_curves.pdf,scripts/tx2_recovery/make_recovery_curves_figure.py,data/tx2/power_3000pairs.csv,Jetson TX2,N_hier = 221 vs N_bin = 476 -> 2.15x fewer measurements
+Figure 5a,VDD2,figures/pi_hw_rail_vdd2.pdf,scripts/fig05_hw_rails.py,data/pi5/hw_sweep_rails_calib.csv,Pi 5,Linear in HW(V); R^2 = 0.97
+Figure 5b,VDDQ,figures/pi_hw_rail_vddq.pdf,scripts/fig05_hw_rails.py,data/pi5/hw_sweep_rails_calib.csv,Pi 5,Inverted-V DBI fold peaking near HW = 256
+Figure 6a,template,figures/pi_hw_arch_template.pdf,scripts/fig06_10a_11a_templates.py,data/pi5/hw_template_arch_arm0.csv,Pi 5,Joint (VDDQ VDD2) template polyline
+Figure 6b,confusion,figures/pi_hw_arch_confusion.pdf,scripts/fig06_10a_11a_templates.py,data/pi5/hw_template_arch_arm0.csv,Pi 5,81.5% exact at N = 160 (11% random baseline)
+Figure 7,-,figures/block_hd_arch.pdf,scripts/fig07_hd_toggle.py,data/pi5/hd_toggle_sweep_v11ref.csv,Pi 5,+19.7 uA per toggled bit; R^2 = 0.958
+Figure 8,-,figures/cpa_recovery_arch.pdf,scripts/fig08_10b_11b_recovery.py,data/pi5/cpa_recovery_spec_vs_arch.json,Pi 5,63/64 bytes at rank 1 (blind CPA)
+Figure 8,model form,figures/realvalue_success_vs_traces.pdf,scripts/fig08_10b_11b_recovery.py,data/pi5/cpa_blind_success_vs_rate.json,Pi 5 (2 GB),Model vs Measured success probability - see REPRODUCTION.md
+Figure 9,-,(none),(static schematic in LaTeX),-,Pi 5,Spectre-RSB gadget flow
+Figure 10a,confusion,figures/pi_hw_spectre_confusion.pdf,scripts/fig06_10a_11a_templates.py,data/pi5/hw_template_spectre_arm21.csv,Pi 5,88.9% exact on the squashed path
+Figure 10b,recovery,figures/cpa_recovery_spec.pdf,scripts/fig08_10b_11b_recovery.py,data/pi5/cpa_recovery_spec_vs_arch.json,Pi 5,Speculative 63/64 at N = 59402
+Figure 11a,confusion,figures/pi_hw_nc_confusion.pdf,scripts/fig06_10a_11a_templates.py,data/pi5/hw_template_uncacheable_arm14.csv,Pi 5,85.2% exact on uncacheable memory
+Figure 11b,recovery,figures/cpa_recovery_nc_barrier.pdf,scripts/fig08_10b_11b_recovery.py,data/pi5/cpa_recovery_uncacheable.json,Pi 5,Uncacheable 64/64 at N = 33330
+Figure 12,-,figures/fig_hierarchy_landscape.pdf,scripts/tx2_recovery/make_hierarchy_landscape_figure.py,data/tx2/hierarchy_theory.json,(analytic),Per-trace saving 1.5x (LPDDR4) to 6.5x (DDR5)
+Table 1,-,figures/table1_placement.txt,scripts/tab01_placement.py,data/pi5/placement_gamma.json,Pi 5,Same channel is the only binding placement constraint
+Table 2,-,figures/table2_mapping.txt,scripts/tab02_mapping.py,data/tx2/power_3000pairs.csv,all three,TX2 bank selectors recovered live over GF(2)

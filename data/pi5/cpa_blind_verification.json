@@ -1,0 +1,897 @@
+{
+  "csv": "data/calib_arm14_nc_partial.csv",
+  "n_traces": 3868,
+  "rank1": 2,
+  "keyrank_bits": 323.73242702475034,
+  "shuffle_control_rank1": 0,
+  "recovered_hex": "e2dce8a22871609e682ea1aad8c99211148d3cc40447634a841e04586b188bd2fde8a96c064dd08219ffb30809ad46afc28f0428d62c29089081f3b0ccfe4d40",
+  "secret_hex": "fcfda7a7a35267bf686e8a1a6cc753f1d1af8fe2850fe0cc9e13537e0829eafbf5f82ddb0f15c30040d3b108c0ffffffb9b3078f972e2f0df0a5d3db5bfaa942",
+  "per_byte": [
+    {
+      "pos": 0,
+      "truth": 252,
+      "recovered": 226,
+      "match": false,
+      "rank": 116,
+      "rho_true": 0.000979821919316408
+    },
+    {
+      "pos": 1,
+      "truth": 253,
+      "recovered": 220,
+      "match": false,
+      "rank": 19,
+      "rho_true": 0.029338528566748963
+    },
+    {
+      "pos": 2,
+      "truth": 167,
+      "recovered": 232,
+      "match": false,
+      "rank": 193,
+      "rho_true": -0.01534527555015036
+    },
+    {
+      "pos": 3,
+      "truth": 167,
+      "recovered": 162,
+      "match": false,
+      "rank": 14,
+      "rho_true": 0.021948954601592678
+    },
+    {
+      "pos": 4,
+      "truth": 163,
+      "recovered": 40,
+      "match": false,
+      "rank": 77,
+      "rho_true": 0.013355958865825936
+    },
+    {
+      "pos": 5,
+      "truth": 82,
+      "recovered": 113,
+      "match": false,
+      "rank": 34,
+      "rho_true": 0.010246647158366337
+    },
+    {
+      "pos": 6,
+      "truth": 103,
+      "recovered": 96,
+      "match": false,
+      "rank": 75,
+      "rho_true": 0.013506737960561696
+    },
+    {
+      "pos": 7,
+      "truth": 191,
+      "recovered": 158,
+      "match": false,
+      "rank": 4,
+      "rho_true": 0.042217491860757975
+    },
+    {
+      "pos": 8,
+      "truth": 104,
+      "recovered": 104,
+      "match": true,
+      "rank": 1,
+      "rho_true": 0.0452750156537094
+    },
+    {
+      "pos": 9,
+      "truth": 110,
+      "recovered": 46,
+      "match": false,
+      "rank": 4,
+      "rho_true": 0.02640677620587784
+    },
+    {
+      "pos": 10,
+      "truth": 138,
+      "recovered": 161,
+      "match": false,
+      "rank": 100,
+      "rho_true": 0.010438037106506131
+    },
+    {
+      "pos": 11,
+      "truth": 26,
+      "recovered": 170,
+      "match": false,
+      "rank": 81,
+      "rho_true": 0.009198441392861134
+    },
+    {
+      "pos": 12,
+      "truth": 108,
+      "recovered": 216,
+      "match": false,
+      "rank": 133,
+      "rho_true": -0.0009566569156694115
+    },
+    {
+      "pos": 13,
+      "truth": 199,
+      "recovered": 201,
+      "match": false,
+      "rank": 135,
+      "rho_true": -0.003227014353169857
+    },
+    {
+      "pos": 14,
+      "truth": 83,
+      "recovered": 146,
+      "match": false,
+      "rank": 39,
+      "rho_true": 0.021481274796731863
+    },
+    {
+      "pos": 15,
+      "truth": 241,
+      "recovered": 17,
+      "match": false,
+      "rank": 47,
+      "rho_true": 0.017101948981860873
+    },
+    {
+      "pos": 16,
+      "truth": 209,
+      "recovered": 20,
+      "match": false,
+      "rank": 63,
+      "rho_true": 0.013602946829717381
+    },
+    {
+      "pos": 17,
+      "truth": 175,
+      "recovered": 141,
+      "match": false,
+      "rank": 71,
+      "rho_true": 0.011266025037836953
+    },
+    {
+      "pos": 18,
+      "truth": 143,
+      "recovered": 60,
+      "match": false,
+      "rank": 93,
+      "rho_true": 0.0028157287530397286
+    },
+    {
+      "pos": 19,
+      "truth": 226,
+      "recovered": 196,
+      "match": false,
+      "rank": 32,
+      "rho_true": 0.019997004675939706
+    },
+    {
+      "pos": 20,
+      "truth": 133,
+      "recovered": 4,
+      "match": false,
+      "rank": 17,
+      "rho_true": 0.020194316979950066
+    },
+    {
+      "pos": 21,
+      "truth": 15,
+      "recovered": 71,
+      "match": false,
+      "rank": 2,
+      "rho_true": 0.027341044109209796
+    },
+    {
+      "pos": 22,
+      "truth": 224,
+      "recovered": 99,
+      "match": false,
+      "rank": 36,
+      "rho_true": 0.01588933522962118
+    },
+    {
+      "pos": 23,
+      "truth": 204,
+      "recovered": 74,
+      "match": false,
+      "rank": 80,
+      "rho_true": 0.008875624043142518
+    },
+    {
+      "pos": 24,
+      "truth": 158,
+      "recovered": 132,
+      "match": false,
+      "rank": 58,
+      "rho_true": 0.011679857385521502
+    },
+    {
+      "pos": 25,
+      "truth": 19,
+      "recovered": 30,
+      "match": false,
+      "rank": 16,
+      "rho_true": 0.02075258768800446
+    },
+    {
+      "pos": 26,
+      "truth": 83,
+      "recovered": 4,
+      "match": false,
+      "rank": 173,
+      "rho_true": -0.010453592245204021
+    },
+    {
+      "pos": 27,
+      "truth": 126,
+      "recovered": 88,
+      "match": false,
+      "rank": 22,
+      "rho_true": 0.03176906348777651
+    },
+    {
+      "pos": 28,
+      "truth": 8,
+      "recovered": 107,
+      "match": false,
+      "rank": 53,
+      "rho_true": 0.01981544539483168
+    },
+    {
+      "pos": 29,
+      "truth": 41,
+      "recovered": 24,
+      "match": false,
+      "rank": 41,
+      "rho_true": 0.01778604934878101
+    },
+    {
+      "pos": 30,
+      "truth": 234,
+      "recovered": 139,
+      "match": false,
+      "rank": 44,
+      "rho_true": 0.012685338305087251
+    },
+    {
+      "pos": 31,
+      "truth": 251,
+      "recovered": 210,
+      "match": false,
+      "rank": 106,
+      "rho_true": 0.002580167224767603
+    },
+    {
+      "pos": 32,
+      "truth": 245,
+      "recovered": 253,
+      "match": false,
+      "rank": 13,
+      "rho_true": 0.012788978199817932
+    },
+    {
+      "pos": 33,
+      "truth": 248,
+      "recovered": 232,
+      "match": false,
+      "rank": 5,
+      "rho_true": 0.020590514165828144
+    },
+    {
+      "pos": 34,
+      "truth": 45,
+      "recovered": 169,
+      "match": false,
+      "rank": 27,
+      "rho_true": 0.013495329820399929
+    },
+    {
+      "pos": 35,
+      "truth": 219,
+      "recovered": 108,
+      "match": false,
+      "rank": 231,
+      "rho_true": -0.015313908450909148
+    },
+    {
+      "pos": 36,
+      "truth": 15,
+      "recovered": 6,
+      "match": false,
+      "rank": 39,
+      "rho_true": 0.016566496346396228
+    },
+    {
+      "pos": 37,
+      "truth": 21,
+      "recovered": 77,
+      "match": false,
+      "rank": 68,
+      "rho_true": 0.007395238635294376
+    },
+    {
+      "pos": 38,
+      "truth": 195,
+      "recovered": 208,
+      "match": false,
+      "rank": 13,
+      "rho_true": 0.02777773761776401
+    },
+    {
+      "pos": 39,
+      "truth": 0,
+      "recovered": 130,
+      "match": false,
+      "rank": 14,
+      "rho_true": 0.02795534374649211
+    },
+    {
+      "pos": 40,
+      "truth": 64,
+      "recovered": 25,
+      "match": false,
+      "rank": 38,
+      "rho_true": 0.01994736849602861
+    },
+    {
+      "pos": 41,
+      "truth": 211,
+      "recovered": 255,
+      "match": false,
+      "rank": 86,
+      "rho_true": 0.006973510645660187
+    },
+    {
+      "pos": 42,
+      "truth": 177,
+      "recovered": 179,
+      "match": false,
+      "rank": 17,
+      "rho_true": 0.0342967302479133
+    },
+    {
+      "pos": 43,
+      "truth": 8,
+      "recovered": 8,
+      "match": true,
+      "rank": 1,
+      "rho_true": 0.034468627828957626
+    },
+    {
+      "pos": 44,
+      "truth": 192,
+      "recovered": 9,
+      "match": false,
+      "rank": 107,
+      "rho_true": 0.0028897948583192644
+    },
+    {
+      "pos": 45,
+      "truth": 255,
+      "recovered": 173,
+      "match": false,
+      "rank": 94,
+      "rho_true": 0.003698934464156792
+    },
+    {
+      "pos": 46,
+      "truth": 255,
+      "recovered": 70,
+      "match": false,
+      "rank": 204,
+      "rho_true": -0.017812369688438013
+    },
+    {
+      "pos": 47,
+      "truth": 255,
+      "recovered": 175,
+      "match": false,
+      "rank": 25,
+      "rho_true": 0.033076092244029985
+    },
+    {
+      "pos": 48,
+      "truth": 185,
+      "recovered": 194,
+      "match": false,
+      "rank": 247,
+      "rho_true": -0.025792010190056183
+    },
+    {
+      "pos": 49,
+      "truth": 179,
+      "recovered": 143,
+      "match": false,
+      "rank": 112,
+      "rho_true": 0.0024589321073625486
+    },
+    {
+      "pos": 50,
+      "truth": 7,
+      "recovered": 4,
+      "match": false,
+      "rank": 8,
+      "rho_true": 0.024709081747028114
+    },
+    {
+      "pos": 51,
+      "truth": 143,
+      "recovered": 40,
+      "match": false,
+      "rank": 170,
+      "rho_true": -0.010022139728669208
+    },
+    {
+      "pos": 52,
+      "truth": 151,
+      "recovered": 214,
+      "match": false,
+      "rank": 14,
+      "rho_true": 0.03237708080472035
+    },
+    {
+      "pos": 53,
+      "truth": 46,
+      "recovered": 44,
+      "match": false,
+      "rank": 21,
+      "rho_true": 0.02252918967561785
+    },
+    {
+      "pos": 54,
+      "truth": 47,
+      "recovered": 41,
+      "match": false,
+      "rank": 49,
+      "rho_true": 0.021515083637055094
+    },
+    {
+      "pos": 55,
+      "truth": 13,
+      "recovered": 8,
+      "match": false,
+      "rank": 7,
+      "rho_true": 0.036939397175436504
+    },
+    {
+      "pos": 56,
+      "truth": 240,
+      "recovered": 144,
+      "match": false,
+      "rank": 24,
+      "rho_true": 0.031367374193654075
+    },
+    {
+      "pos": 57,
+      "truth": 165,
+      "recovered": 129,
+      "match": false,
+      "rank": 22,
+      "rho_true": 0.017051979811088316
+    },
+    {
+      "pos": 58,
+      "truth": 211,
+      "recovered": 243,
+      "match": false,
+      "rank": 2,
+      "rho_true": 0.04072597330961132
+    },
+    {
+      "pos": 59,
+      "truth": 219,
+      "recovered": 176,
+      "match": false,
+      "rank": 85,
+      "rho_true": 0.0068436514455284475
+    },
+    {
+      "pos": 60,
+      "truth": 91,
+      "recovered": 204,
+      "match": false,
+      "rank": 239,
+      "rho_true": -0.023256065220164726
+    },
+    {
+      "pos": 61,
+      "truth": 250,
+      "recovered": 254,
+      "match": false,
+      "rank": 16,
+      "rho_true": 0.04296086701304026
+    },
+    {
+      "pos": 62,
+      "truth": 169,
+      "recovered": 77,
+      "match": false,
+      "rank": 28,
+      "rho_true": 0.03096647342898118
+    },
+    {
+      "pos": 63,
+      "truth": 66,
+      "recovered": 64,
+      "match": false,
+      "rank": 6,
+      "rho_true": 0.02617258790771574
+    }
+  ],
+  "mismatches": [
+    {
+      "pos": 0,
+      "truth": 252,
+      "recovered": 226,
+      "rank": 116
+    },
+    {
+      "pos": 1,
+      "truth": 253,
+      "recovered": 220,
+      "rank": 19
+    },
+    {
+      "pos": 2,
+      "truth": 167,
+      "recovered": 232,
+      "rank": 193
+    },
+    {
+      "pos": 3,
+      "truth": 167,
+      "recovered": 162,
+      "rank": 14
+    },
+    {
+      "pos": 4,
+      "truth": 163,
+      "recovered": 40,
+      "rank": 77
+    },
+    {
+      "pos": 5,
+      "truth": 82,
+      "recovered": 113,
+      "rank": 34
+    },
+    {
+      "pos": 6,
+      "truth": 103,
+      "recovered": 96,
+      "rank": 75
+    },
+    {
+      "pos": 7,
+      "truth": 191,
+      "recovered": 158,
+      "rank": 4
+    },
+    {
+      "pos": 9,
+      "truth": 110,
+      "recovered": 46,
+      "rank": 4
+    },
+    {
+      "pos": 10,
+      "truth": 138,
+      "recovered": 161,
+      "rank": 100
+    },
+    {
+      "pos": 11,
+      "truth": 26,
+      "recovered": 170,
+      "rank": 81
+    },
+    {
+      "pos": 12,
+      "truth": 108,
+      "recovered": 216,
+      "rank": 133
+    },
+    {
+      "pos": 13,
+      "truth": 199,
+      "recovered": 201,
+      "rank": 135
+    },
+    {
+      "pos": 14,
+      "truth": 83,
+      "recovered": 146,
+      "rank": 39
+    },
+    {
+      "pos": 15,
+      "truth": 241,
+      "recovered": 17,
+      "rank": 47
+    },
+    {
+      "pos": 16,
+      "truth": 209,
+      "recovered": 20,
+      "rank": 63
+    },
+    {
+      "pos": 17,
+      "truth": 175,
+      "recovered": 141,
+      "rank": 71
+    },
+    {
+      "pos": 18,
+      "truth": 143,
+      "recovered": 60,
+      "rank": 93
+    },
+    {
+      "pos": 19,
+      "truth": 226,
+      "recovered": 196,
+      "rank": 32
+    },
+    {
+      "pos": 20,
+      "truth": 133,
+      "recovered": 4,
+      "rank": 17
+    },
+    {
+      "pos": 21,
+      "truth": 15,
+      "recovered": 71,
+      "rank": 2
+    },
+    {
+      "pos": 22,
+      "truth": 224,
+      "recovered": 99,
+      "rank": 36
+    },
+    {
+      "pos": 23,
+      "truth": 204,
+      "recovered": 74,
+      "rank": 80
+    },
+    {
+      "pos": 24,
+      "truth": 158,
+      "recovered": 132,
+      "rank": 58
+    },
+    {
+      "pos": 25,
+      "truth": 19,
+      "recovered": 30,
+      "rank": 16
+    },
+    {
+      "pos": 26,
+      "truth": 83,
+      "recovered": 4,
+      "rank": 173
+    },
+    {
+      "pos": 27,
+      "truth": 126,
+      "recovered": 88,
+      "rank": 22
+    },
+    {
+      "pos": 28,
+      "truth": 8,
+      "recovered": 107,
+      "rank": 53
+    },
+    {
+      "pos": 29,
+      "truth": 41,
+      "recovered": 24,
+      "rank": 41
+    },
+    {
+      "pos": 30,
+      "truth": 234,
+      "recovered": 139,
+      "rank": 44
+    },
+    {
+      "pos": 31,
+      "truth": 251,
+      "recovered": 210,
+      "rank": 106
+    },
+    {
+      "pos": 32,
+      "truth": 245,
+      "recovered": 253,
+      "rank": 13
+    },
+    {
+      "pos": 33,
+      "truth": 248,
+      "recovered": 232,
+      "rank": 5
+    },
+    {
+      "pos": 34,
+      "truth": 45,
+      "recovered": 169,
+      "rank": 27
+    },
+    {
+      "pos": 35,
+      "truth": 219,
+      "recovered": 108,
+      "rank": 231
+    },
+    {
+      "pos": 36,
+      "truth": 15,
+      "recovered": 6,
+      "rank": 39
+    },
+    {
+      "pos": 37,
+      "truth": 21,
+      "recovered": 77,
+      "rank": 68
+    },
+    {
+      "pos": 38,
+      "truth": 195,
+      "recovered": 208,
+      "rank": 13
+    },
+    {
+      "pos": 39,
+      "truth": 0,
+      "recovered": 130,
+      "rank": 14
+    },
+    {
+      "pos": 40,
+      "truth": 64,
+      "recovered": 25,
+      "rank": 38
+    },
+    {
+      "pos": 41,
+      "truth": 211,
+      "recovered": 255,
+      "rank": 86
+    },
+    {
+      "pos": 42,
+      "truth": 177,
+      "recovered": 179,
+      "rank": 17
+    },
+    {
+      "pos": 44,
+      "truth": 192,
+      "recovered": 9,
+      "rank": 107
+    },
+    {
+      "pos": 45,
+      "truth": 255,
+      "recovered": 173,
+      "rank": 94
+    },
+    {
+      "pos": 46,
+      "truth": 255,
+      "recovered": 70,
+      "rank": 204
+    },
+    {
+      "pos": 47,
+      "truth": 255,
+      "recovered": 175,
+      "rank": 25
+    },
+    {
+      "pos": 48,
+      "truth": 185,
+      "recovered": 194,
+      "rank": 247
+    },
+    {
+      "pos": 49,
+      "truth": 179,
+      "recovered": 143,
+      "rank": 112
+    },
+    {
+      "pos": 50,
+      "truth": 7,
+      "recovered": 4,
+      "rank": 8
+    },
+    {
+      "pos": 51,
+      "truth": 143,
+      "recovered": 40,
+      "rank": 170
+    },
+    {
+      "pos": 52,
+      "truth": 151,
+      "recovered": 214,
+      "rank": 14
+    },
+    {
+      "pos": 53,
+      "truth": 46,
+      "recovered": 44,
+      "rank": 21
+    },
+    {
+      "pos": 54,
+      "truth": 47,
+      "recovered": 41,
+      "rank": 49
+    },
+    {
+      "pos": 55,
+      "truth": 13,
+      "recovered": 8,
+      "rank": 7
+    },
+    {
+      "pos": 56,
+      "truth": 240,
+      "recovered": 144,
+      "rank": 24
+    },
+    {
+      "pos": 57,
+      "truth": 165,
+      "recovered": 129,
+      "rank": 22
+    },
+    {
+      "pos": 58,
+      "truth": 211,
+      "recovered": 243,
+      "rank": 2
+    },
+    {
+      "pos": 59,
+      "truth": 219,
+      "recovered": 176,
+      "rank": 85
+    },
+    {
+      "pos": 60,
+      "truth": 91,
+      "recovered": 204,
+      "rank": 239
+    },
+    {
+      "pos": 61,
+      "truth": 250,
+      "recovered": 254,
+      "rank": 16
+    },
+    {
+      "pos": 62,
+      "truth": 169,
+      "recovered": 77,
+      "rank": 28
+    },
+    {
+      "pos": 63,
+      "truth": 66,
+      "recovered": 64,
+      "rank": 6
+    }
+  ]
+}

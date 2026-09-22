@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+figures/_template_work/
+*.ko
+*.o
+*.mod
+*.mod.c
+Module.symvers
+modules.order
+.DS_Store

@@ -1,0 +1,27 @@
+artifact_path	source_path	figure	description
+data/zcu102/rowconflict_timing_200pairs.csv	ConflictINA/ina_conflict_perpair.csv	Fig3a	200 probe pairs, cumulative loop latency (ns), VCCO_PSDDR INA226 co-sampled
+data/zcu102/rowconflict_power_500pairs.csv	ConflictINA/optimized_test.csv	Fig3d	500 probe pairs x 18 INA226 rails, per-phase burst samples
+data/zcu102/rowconflict_power_500pairs_gt.csv	ConflictINA/optimized_test_gt.csv	Fig3d	Ground-truth bank/row labels for the 500-pair test set
+data/pi5/rowconflict_timing_400pairs.csv	LPconflict/power_wfp_large.csv	Fig3b	400 probe pairs, per-access latency (ns) + DDR_VDD2 waveform
+data/pi5/rowconflict_power_100pairs.csv	LPconflict/power_features.csv	Fig3e	100 probe pairs (50 conflict / 50 non-conflict), DDR_VDD2 burst power
+data/pi5/rowconflict_power_240pairs.csv	LPconflict/power_features_large.csv	Fig3e-ext	240-pair extended replicate of the same protocol
+data/pi5/hw_sweep_rails_calib.csv	rammed/data/pi/calib_hires.csv	Fig5a,Fig5b	HW(V) 0..512 sweep on DDR_VDD2_A and DDR_VDDQ_A
+data/tx2/drama_timing_3000pairs.csv	JestINA/results/drama_conflictset.csv	Fig3c	3000 probe pairs, DRAMA row-conflict timing (CNTVCT ticks)
+data/tx2/power_3000pairs.csv	JestINA/results/kk_large.csv	Fig3f	3000 probe pairs x 3 reps, VDD_SYS_DDR INA3221 mean current (mA)
+data/tx2/power_multideep_200probes.csv	JestINA/results/multi_deep.csv	Fig3f-ext	200 probes x 10 reps deep integration, power + throughput
+data/tx2/drama_calibration.csv	JestINA/results/drama_calibration.csv	Fig3c	DRAMA threshold calibration set
+data/tx2/recovery_method_comparison.json	JestINA/results/method_comparison_full.json	Fig4	Binary vs hierarchy-aware recovery, empirical + theory curves
+data/tx2/hierarchy_theory.json	JestINA/results/hierarchy_theory_comparison.json	Fig12	Per-hierarchy theoretical measurement bound
+data/tx2/bank_recovery.json	JestINA/results/sudoku_bank_recovery.json	Tab2	Recovered bank-selection functions (TX2)
+data/pi5/hw_template_arch_arm0.csv	HomardSpec/experiments/phase2/data/arch_hwtpl_arm0.csv	Fig6a,Fig6b	HW(V) joint-rail template, committed architectural gadget (ARM_REF, arm 0), G=0
+data/pi5/hd_toggle_sweep_v11ref.csv	HomardSpec/experiments/phase2/data/block_hd_v11ref_sweep.csv	Fig7	DDR_VDD2_A vs N_toggle = HD(G,V), 0..512, v11 ARM_REF
+data/pi5/cpa_blind_recovery_vs_traces.json	HomardSpec/experiments/phase2/figures/realvalue_recovery_vs_traces.json	Fig8	Blind 64-byte CPA: bytes recovered at rank 1 vs trace count
+data/pi5/cpa_blind_success_vs_rate.json	HomardSpec/experiments/phase2/figures/realvalue_success_vs_rate.json	Fig8	Per-byte success probability vs trace count
+data/pi5/cpa_blind_attack_summary.json	HomardSpec/experiments/phase2/figures/realvalue_attack_summary.json	Fig8	Final ranks/keyspace for the 64-byte blind run
+data/pi5/cpa_blind_verification.json	HomardSpec/experiments/phase2/figures/realvalue_verification.json	Fig8	Shuffle control on the uncacheable run: real vs randomly re-paired g_i
+data/pi5/cpa_recovery_spec_vs_arch.json	HomardSpec/experiments/phase2/figures/recovery_spec_vs_arch.json	Fig10b	Speculative (RSB) vs architectural byte-recovery curves
+data/pi5/cpa_recovery_uncacheable.json	HomardSpec/experiments/phase2/figures/cpa_recovery_nc_barrier.json	Fig11b	Uncacheable (Normal-NC) vs architectural recovery curves
+data/pi5/hw_confusion_2gb.json	HomardSpec/experiments/phase2/figures/realvalue_hw_confusion_2gb.json	Sec7.3	Portability: HW recovery on the 2 GB Pi 5
+data/pi5/hw_template_spectre_arm21.csv	HomardSpec/experiments/phase2/data/spec_hwtpl_arm21.csv	Fig10a	HW(V) template on the mispredicted RSB path (Spectre-RSB gadget, arm 21)
+data/pi5/hw_template_uncacheable_arm14.csv	HomardSpec/experiments/phase2/data/nc_hwtpl_arm14.csv	Fig11a	HW(V) template, Normal non-cacheable gadget (arm 14, no flush)
+data/pi5/placement_gamma.json	HomardSpec/experiments/phase2/CROSSBANK_CPA.md	Tab1	G/V placement vs per-bit swing and CPA outcome (gamma probe + paired rho runs)

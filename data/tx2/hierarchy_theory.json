@@ -1,0 +1,101 @@
+{
+  "fixed_epsilon": 1e-06,
+  "cases": [
+    {
+      "key": "ddr5_udimm",
+      "title": "DDR5 2R x8 UDIMM",
+      "short_title": "DDR5",
+      "n_bits": 27,
+      "q_levels": [
+        1,
+        1,
+        3,
+        2
+      ],
+      "level_labels": [
+        "sub-ch",
+        "rank",
+        "bank grp",
+        "bank"
+      ],
+      "collision_factor": {
+        "binary": 128,
+        "hierarchy": 16
+      },
+      "trace_budget_eps_1e6": {
+        "per_stage": [
+          95.86313709565269,
+          93.86313705265702,
+          351.45254580287065,
+          167.72626877384926
+        ],
+        "hierarchy_total": 708.9050887250296,
+        "binary_total": 5111.240600763176,
+        "speedup": 7.210049246445354
+      },
+      "source_note": "Sudoku 2025 exposes a DDR5 2R x8 UDIMM decomposition; Micron DDR5 docs provide two subchannels, up to two ranks per subchannel, and 8 bank groups x 4 banks for x8 devices."
+    },
+    {
+      "key": "exynos7420_lpddr4",
+      "title": "Exynos 7420 LPDDR4",
+      "short_title": "LPDDR4 (DRAMA)",
+      "n_bits": 10,
+      "q_levels": [
+        1,
+        1,
+        3
+      ],
+      "level_labels": [
+        "channel",
+        "rank",
+        "bank"
+      ],
+      "collision_factor": {
+        "binary": 32,
+        "hierarchy": 12
+      },
+      "trace_budget_eps_1e6": {
+        "per_stage": [
+          61.027421101965906,
+          59.021769013808374,
+          211.76581904345764
+        ],
+        "hierarchy_total": 331.8150091592319,
+        "binary_total": 796.3444761507536,
+        "speedup": 2.3999652040110173
+      },
+      "source_note": "DRAMA 2016 reports a 2-channel LPDDR4 mapping on Exynos 7420 with one channel hash, one rank hash, and three bank-address functions."
+    },
+    {
+      "key": "tx2_lpddr4",
+      "title": "Jetson TX2 LPDDR4 (ours)",
+      "short_title": "TX2 LPDDR4",
+      "n_bits": 18,
+      "q_levels": [
+        1,
+        1,
+        2
+      ],
+      "level_labels": [
+        "chip",
+        "sub-ch",
+        "bank"
+      ],
+      "collision_factor": {
+        "binary": 16,
+        "hierarchy": 8
+      },
+      "trace_budget_eps_1e6": {
+        "per_stage": [
+          77.03304012622738,
+          75.03301811219613,
+          142.065772048963
+        ],
+        "hierarchy_total": 294.1318302873865,
+        "binary_total": 542.9036881843135,
+        "speedup": 1.84578353064971
+      },
+      "source_note": "This work: chip bit c, sub-channel bit s, and two bank selectors f1/f2 over PA[12..29], so q=(1,1,2)."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_comment": "Per-bit rail swing (gamma) and CPA outcome as the secret block V is moved away from the attacker block G on the Raspberry Pi 5. Measured with the uncacheable barrier gadget (ARM_N_DSBSY) on DDR_VDD2_A. Source runs: crossbank_gamma.py (gamma probe, one allocation, G fixed) and crossbank_rho_compare.py / v11_cpa_crossbank.py (paired rho calibration and full CPA). Narrative record: docs/CROSSBANK_CPA.md.",
+  "pi5_dram_address_function": {
+    "banks": 16,
+    "b3": "PA[12]", "b2": "PA[13]",
+    "b1": "PA[31] xor PA[32]", "b0": "PA[12] xor PA[33]",
+    "channel": "PA[31]"
+  },
+  "gamma_reference_uA_per_bit": 27.6,
+  "placements": [
+    {"key": "same_row",        "label": "Same row",
+     "gamma_uA_per_bit": 27.6, "recovery": "yes (baseline)", "bytes_at_4k3": 19},
+    {"key": "diff_bank_same_channel", "label": "Different bank, same channel",
+     "gamma_uA_per_bit": 21.5, "gamma_best_page_uA_per_bit": 27.6,
+     "recovery": "yes", "bytes_at_4k3": 12, "median_rho": 0.037},
+    {"key": "same_bank_diff_row", "label": "Same bank, different row",
+     "gamma_uA_per_bit": 15.6, "recovery": "yes (weakest)"},
+    {"key": "diff_channel",    "label": "Different channel",
+     "gamma_uA_per_bit": 11.7, "recovery": "no (0/64)", "bytes_at_4k3": 0,
+     "median_rho": 0.0097, "noise_floor_rho": 0.011}
+  ],
+  "conclusion": "The binding requirement is channel co-location, not row or bank co-location. Different-bank/same-channel (78%) beats same-bank/different-row (56%) because a row-buffer conflict, not leaving the row, is what costs signal. Crossing to a different channel removes the shared DQ bus and the cross-term with it."
+}

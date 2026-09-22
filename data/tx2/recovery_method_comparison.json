@@ -1,0 +1,57 @@
+{
+  "n_trials": 400,
+  "max_n": 1500,
+  "n_bits": 18,
+  "rows_total": 9000,
+  "rows_used": 9000,
+  "oracle_agreement": 0.4922222222222222,
+  "pool_counts_truth": {
+    "conflict": 576,
+    "subch": 1716,
+    "chip": 2367,
+    "distinct": 4341
+  },
+  "pool_counts_oracle": {
+    "conflict": 548,
+    "subch": 2384,
+    "chip": 1534,
+    "distinct": 4534
+  },
+  "p_c_zero": 0.5176666666666667,
+  "p_cs_zero": 0.25466666666666665,
+  "p_conflict_random": 0.064,
+  "p_conflict_restricted": 0.2513089005235602,
+  "selector_match": {
+    "chip_ok": 400,
+    "subch_ok": 400,
+    "bank_ok": 400
+  },
+  "stage1_chip": {
+    "completed": 400,
+    "median": 35.0,
+    "p10": 29.0,
+    "p90": 45.0,
+    "mean": 36.1825
+  },
+  "stage2_subch": {
+    "completed": 400,
+    "median": 71.0,
+    "p10": 54.0,
+    "p90": 92.10000000000002,
+    "mean": 71.87
+  },
+  "hierarchy_total": {
+    "completed": 400,
+    "median": 135.5,
+    "p10": 110.0,
+    "p90": 165.10000000000002,
+    "mean": 136.535
+  },
+  "binary_total": {
+    "completed": 400,
+    "median": 259.0,
+    "p10": 174.8,
+    "p90": 349.0,
+    "mean": 258.975
+  }
+}
