@@ -56,5 +56,5 @@ added here once the DOI is assigned.
 
 <p align="center">
   <img src="assets/sushi_team_logo.png" alt="SUSHI team" width="90"><br>
-  <sub>Made by the <b>SUSHI</b> team.</sub>
+  <sub>I'm in the <b>SUSHI</b> team at CentraleSupélec IRISA/INRIA!</sub>
 </p>
