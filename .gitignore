@@ -1,11 +1,26 @@
+# Python
 __pycache__/
 *.pyc
 .venv/
-figures/_template_work/
+
+# Kernel-module build artifacts
 *.ko
 *.o
 *.mod
 *.mod.c
 Module.symvers
 modules.order
+
+# OS cruft
 .DS_Store
+
+# Regenerated results: everything `make figures` produces lands at the top
+# level of figures/ and is removed by `make clean`. These are derived from
+# data/ and should not be committed. The submitted PDFs in figures/reference/
+# and the hand-drawn schematics in figures/schematics/ are kept (single-star
+# patterns below do not descend into those subdirectories).
+figures/_template_work/
+figures/*.pdf
+figures/*.png
+figures/*.txt
+figures/*.json
